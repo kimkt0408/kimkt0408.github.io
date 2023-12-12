@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Kitae Kim"
-resume_title:                   "Ph.D. Candidate"
+resume_title:                   "About Me"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "kim3686@purdue.edu"
@@ -23,7 +23,10 @@ resume_contact_address:         "Ray W. Herrick Laboratories, Purdue University,
 resume_header_contact_info:     "Ray W. Herrick Laboratories, Purdue University, IN • kim3686@purdue.edu"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>Hi! I am a Ph.D. Candidate in Mechanical Engineering at Purdue University, specializing in robotics and automation within Prof. David J. Cappelleri's <a href='https://multiscalerobotics.org/' target='_blank'>Multi-Scale Robotics and Automation Lab</a>. My research is centered on advancing SLAM (Simultaneous Localization And Mapping) techniques and enhancing autonomous navigation in unstructured environments. Presently, my focus is on the development of an innovative mobile robotic system designed for autonomous navigation and physical crop sampling in large-scale row-based cornfields.</p>"
+
+Prof. David J. Cappelleri's <a href='http://YOUR-LAB-URL-HERE' target='_blank'>Multi-Scale Robotics and Automation Lab</a>
+# resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -33,7 +36,7 @@ resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
-resume_section_experience:      true
+resume_section_experience:      false
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
