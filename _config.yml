@@ -47,6 +47,7 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
+  resume_googlescholar_url:          "https://scholar.google.com/citations?user=6FfnTeYAAAAJ&hl=en"
   #resume_github_url:            "https://github.com/jglovier/resume-template" #skip
   #resume_twitter_url:           "http://twitter.com/jglovier"                 #skip
   #resume_dribbble_url:          "https://dribbble.com/jag"                    #skip    
