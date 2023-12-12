@@ -15,6 +15,7 @@ resume_title:                   "About Me"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "kim3686@purdue.edu"
+resume_cv:           "kim3686@purdue.edu"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "555-7334"
