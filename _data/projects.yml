@@ -3,7 +3,35 @@
 - title: "IoT4Ag: The Internet of Things for Precision Agriculture"
   sponsor: National Science Foundation (NSF)
   year: 2021 &mdash; Present
-  summary: Our Mission is to create and translate to practice Internet of Thing (IoT) technologies for precision agriculture and to train and educate a diverse workforce that will address the societal grand challenge of food, energy, and water security for decades to come. In this research, I am focusing on developing autonomous ground-based robot which can navigate autonomously and do physical sampling for nutrition analysis in large-scale cornfields. 
+  summary: Our Mission is to create and translate to practice Internet of Thing (IoT) technologies for precision agriculture and to train and educate a diverse workforce that will address the societal grand challenge of food, energy, and water security for decades to come. In this research, I am focusing on developing autonomous ground-based robot which can navigate autonomously and do physical sampling for crop analysis in large-scale cornfields. 
   url: https://iot4ag.us/
 
+- title: Development of High Definition Map for Autonomous Vehicles Update Technology
+  sponsor: SK Telecom
+  year: 2019 &mdash; 2021
+  summary: "Our goal was to develop a technology that keeps high definition (HD) maps for autonomous vehicles up to date by using a large amount of low-cost low-quality crowdsourced data. I designed two main algorithms for various types of landmarks in the road environment by MATLAB and C++: Observation Learner module and Landmark Update module. My methods make it possible to determine which landmarks need to be registered in the updated maps. Throughout this project, I could realize the importance of accurate map management in the field of autonomous driving." 
+  # url:
 
+- title: Design Self-driving Harvest-Carrying Robot in Greenhouse Environments
+  sponsor: Korea Institute of Planning and Evaluation for Technology in Food, Agriculture and Forestry (IPET)
+  year: 2019 &mdash; 2021
+  summary: In this project, we aimed to develop a mobile robot platform and technology which transports crops in greenhouse environments. In this project, I supported to conduct several experiments in real greenhouse environments. The experiments evaluated the performance of an integrated technology we have been developing. The integrated robot technology includes localization, path planning, motion control, and remote control modules. Through this project, we can expect to increase productivity in an agricultural society. 
+  # url:
+
+- title: Development of robot intelligence technology for mobility with learning capability toward robust and seamless indoor and outdoor autonomous navigation
+  sponsor: Korea Evaluation Institute of Industrial Technology (KEIT)
+  year: 2019 &mdash; 2020
+  summary: The goal of this project was to develop an integrated software library for mobile robots with learning functions that can be used in various indoor and outdoor environments. In this project, our lab had two research goals. We developed learning-type motion control technology that can improve motion performance based on reinforcement learning and conducted certification tests in the real environment. I participated in the preparation for certification tests. In detail, I supported experiments which aim to compute uncertainty of wheel velocity for various ground robot platforms in motion.
+  # url:
+
+- title: The autonomous navigation system with self-growing intelligence for the driver-less car that operates safely in crowded street environments
+  sponsor: National Research Foundation of Korea (NRF)
+  year: 2019 &mdash; 2020
+  summary: This project aimed to develop an intelligent self-driving system for unmanned vehicles that operate safely in cluttered road conditions. To develop a safe autonomous system, our lab designed robust environmental perception and motion planning algorithms. I participated in this project with the role of collecting road data on the campus by utilizing 3D LiDAR sensors equipped on the autonomous vehicle. This data was utilized to validate the newly developed algorithm which finds traversal areas for cars in the environment. Throughout this research, I personally recognized that robust autonomous navigation can be possible only with the optimal sensor configuration.
+  # url:
+
+- title: Verification of the Performance of 3D Light Detection and Ranging (LiDAR) sensors based on the Pedestrian Accident by Uber Autonomous Vehicle
+  sponsor: Undergraduate Thesis
+  year: 2018
+  summary: "During my undergraduate, I concentrated on a social issue “Uber’s autonomous vehicle casualty”. From the accident, I figured out how precisely 3D LiDAR, which is equipped on a vehicle, perceives the real environment when the vehicle is in motion and analyzed the case of the accident. By using the self-driving car owned by the lab at varying speeds, I collected 3D point cloud data of the surrounding environment and compared it with the data under stationary conditions. For the data analysis, I used Robot Operating System (ROS). As a result, I figured out that while at high speed, point cloud were conspicuously distorted, which causes not only inaccurate performance on localization and mapping but also risky self-driving."
+  # url:
