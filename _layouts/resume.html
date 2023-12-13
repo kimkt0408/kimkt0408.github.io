@@ -110,7 +110,8 @@
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <!-- <h3 class="resume-item-title" itemprop="name">{% if publication.url %}<a href="{{ publication.url }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ publication.role }}  &bull; {{ publication.duration }}</h4> -->
-          <p class="resume-item-copy">{{ publication.description }}</p>
+          <!-- <p class="resume-item-copy">{{ publication.description }}</p> -->
+          <p class="resume-item-copy"><strong>{{ publication.title_author }}</strong>{{ publication.title_author }}</p>
         </div>
         {% endfor %}
 
