@@ -4,21 +4,18 @@
   year: 2021 &mdash; Present
   award: 
   summary: 
+  url: https://www.purdue.edu/
 
 - degree: Master of Engineering
   uni: Korea University
   year: 2019 &mdash; 2021
   award: 
   summary: 
+  url: https://www.korea.edu/mbshome/mbs/en/index.do
 
 - degree: Bachelor of Science
   uni: Korea University
   year: 2013 &mdash; 2019
   awards:
   summary: 
-
-# - degree: High School Diploma
-#   uni: Springfield High School
-#   year: 2004
-#   award: Most likely to succeed
-#   summary: You can choose to have either a single or multiple awards
+  url: https://www.korea.edu/mbshome/mbs/en/index.do
