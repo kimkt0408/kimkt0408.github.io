@@ -78,7 +78,10 @@
         </header>
 
         {% for education in site.data.education %}
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ education.uni }} &bull; {{education.degree }} &bull; {{education.year }}</h4>
+        </div>
+        <!-- <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
@@ -88,10 +91,8 @@
               <li>{{ award.award }}</li>
               {% endfor %}
             </ul>
-
-
           <p class="resume-item-copy">{{ education.summary }}</p>
-        </div>
+        </div> -->
         {% endfor %}
       </section>
       <!-- end Education -->
@@ -116,8 +117,9 @@
       <!-- end Publications -->
       {% endif %}
 
+
       {% if site.resume_section_projects %}
-      <!-- begin Skills -->
+      <!-- begin Projects -->
       <section class="content-section">
 
         <header class="section-header">
@@ -132,8 +134,9 @@
         {% endfor %}
 
       </section>
-      <!-- end Skills -->
+      <!-- end Projects -->
       {% endif %}
+
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
