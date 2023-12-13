@@ -16,6 +16,38 @@
   url: https://www.mdpi.com/1424-8220/23/1/438
   doi: 10.3390/s23010438
 
+# P-AgBot: In-Row & Under-Canopy Agricultural Robot for Monitoring and Physical Sampling
+- title: "P-AgBot: In-Row & Under-Canopy Agricultural Robot for Monitoring and Physical Sampling"
+  year: 2022
+  authors: Kitae Kim, Aarya Deb, David J Cappelleri
+  publisher: IEEE Robotics and Automation Letters (RA-L)
+  url: https://ieeexplore.ieee.org/document/9810180/
+  doi: 10.1109/LRA.2022.3187275
+
+# HD Map Update for Autonomous Driving With Crowdsourced Data
+- title: HD Map Update for Autonomous Driving With Crowdsourced Data
+  year: 2021
+  authors: Kitae Kim, Soohyun Cho, Woojin Chung
+  publisher: IEEE Robotics and Automation Letters (RA-L)
+  url: https://ieeexplore.ieee.org/document/9357917
+  doi: 10.1109/LRA.2021.3060406
+
+# Point of Interest Matching Method between Map using Geometric Characteristics
+- title: Point of Interest Matching Method between Map using Geometric Characteristics
+  year: 2020
+  authors: Kitae Kim, Soohyun Cho, Woojin Chung
+  publisher: the 15th Korea Robotics Society Annual Conference
+  # url: 
+  # doi:
+
+# Limitations of 3D LiDAR Applications for Autonomous Vehicles under the Consideration of the Uber Pedestrian Accident
+- title: Limitations of 3D LiDAR Applications for Autonomous Vehicles under the Consideration of the Uber Pedestrian Accident
+  year: 2019
+  authors: Kitae Kim, Soohyun Cho, Woojin Chung
+  publisher: the 16th International Conference on Ubiquitous Robots
+  # url: 
+  # doi:
+
 ##########################################################################
 ## ORIGINAL FORMAT ##
 
