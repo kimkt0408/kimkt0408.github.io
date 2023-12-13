@@ -108,7 +108,7 @@
         {% for publication in site.data.publications %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ publication.title }} &bull; {{ publication.year }}</h4>
-          <p class="resume-item-copy">{{ publication.authors }}, {{ publication.publisher }}{% if publication.url %}(DOI: <a href="{{ publication.url }}">{{ publication.doi }}</a>){% endif %}</p>
+          <p class="resume-item-copy">{{ publication.authors }}, {{ publication.publisher }}{% if publication.url %}(DOI: <a href="{{ publication.url }}" target="_blank">{{ publication.doi }}</a>){% endif %}</p>
         </div>
         {% endfor %}
 
