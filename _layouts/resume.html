@@ -107,8 +107,8 @@
 
         {% for publication in site.data.publications %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ publications.title }}</h4>
-          <p class="resume-item-copy">{{ publications.authors }}</p>
+          <h4 class="resume-item-details">{{ publication.title }} &bull; {{ publication.year }}</h4>
+          <p class="resume-item-copy">{{ publication.authors }}, {{ publication.publisher }}</p>
         </div>
         {% endfor %}
 
