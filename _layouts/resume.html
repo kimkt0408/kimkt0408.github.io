@@ -79,7 +79,7 @@
 
         {% for education in site.data.education %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{% if education.url %}<a href="{{ education.url }}">{{ education.uni }}</a> &bull; {{ education.degree }} &bull; {{ education.year }}</h4>
+          <h4 class="resume-item-details">{% if education.url %}<a href="{{ education.url }}">{{ education.uni }}</a>{% else %}{{ education.uni }}{% endif %} &bull; {{ education.degree }} &bull; {{ education.year }}</h4>
         </div>
         {% endfor %}
       </section>
