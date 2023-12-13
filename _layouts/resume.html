@@ -116,6 +116,25 @@
       <!-- end Publications -->
       {% endif %}
 
+      {% if site.resume_section_projects %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+        {% for project in site.data.projects %}
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="award"><a href="{{ project.url }}" target="_blank">{{ project.title }}</a></h3>
+          <h4 class="resume-item-details">{{ project.sponsor }} &bull; {{ project.year }}</h4>
+          <p class="resume-item-copy">{{ project.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
+
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">

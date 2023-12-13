@@ -5,7 +5,7 @@
 - title: Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
   year: 2023
   authors: Aarya Deb, Kitae Kim, David J. Cappelleri
-  publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  publisher: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (DOI: TBD)"
   # url: 
 
 # Frequent and Automatic Update of Lane-Level HD Maps with a Large Amount of Crowdsourced Data Acquired from Buses and Taxis in Seoul
@@ -44,7 +44,7 @@
 - title: Limitations of 3D LiDAR Applications for Autonomous Vehicles under the Consideration of the Uber Pedestrian Accident
   year: 2019
   authors: Kitae Kim, Soohyun Cho, Woojin Chung
-  publisher: the 16th International Conference on Ubiquitous Robots
+  publisher: the 16th International Conference on Ubiquitous Robots (UR)
   # url: 
   # doi:
 
