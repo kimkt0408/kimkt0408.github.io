@@ -6,12 +6,20 @@
   year: 2023
   authors: Aarya Deb, Kitae Kim, David J. Cappelleri
   publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  # url: 
 
+# Frequent and Automatic Update of Lane-Level HD Maps with a Large Amount of Crowdsourced Data Acquired from Buses and Taxis in Seoul
+- title: Frequent and Automatic Update of Lane-Level HD Maps with a Large Amount of Crowdsourced Data Acquired from Buses and Taxis in Seoul
+  year: 2022
+  authors: Minwoo Cho, Kitae Kim, Soohyun Cho, Seung-Mo Cho, Woojin Chung
+  publisher: Sensors
+  url: https://www.mdpi.com/1424-8220/23/1/438
+  doi: 
 
-# Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
-# - title: Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
-#   authors: Aarya Deb, Kitae Kim, David J. Cappelleri
-#   publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023
+  M. Cho, K. Kim, S. Cho, SM. Cho, and W. Chung, “Frequent and Automatic Update of Lane-Level HD Maps with a Large Amount of Crowdsourced Data Acquired from Buses and Taxis in Seoul,” Sensors, 2022 (DOI: 10.3390/s23010438)
+
+##########################################################################
+## ORIGINAL FORMAT ##
 
 # Pose Correction Strategy of Crowdsourced Data For HD Map Update
 # - title: Pose Correction Strategy of Crowdsourced Data For HD Map Update
