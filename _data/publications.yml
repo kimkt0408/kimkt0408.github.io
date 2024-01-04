@@ -6,7 +6,8 @@
   year: 2023
   authors: Aarya Deb, Kitae Kim, David J. Cappelleri
   publisher: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (DOI: TBD)"
-  # url: 
+  url: https://doi.org/10.1109/IROS55552.2023.10341516
+  doi: 10.1109/IROS55552.2023.10341516
 
 # Frequent and Automatic Update of Lane-Level HD Maps with a Large Amount of Crowdsourced Data Acquired from Buses and Taxis in Seoul
 - title: Frequent and Automatic Update of Lane-Level HD Maps with a Large Amount of Crowdsourced Data Acquired from Buses and Taxis in Seoul
