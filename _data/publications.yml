@@ -5,15 +5,16 @@
 - title: Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
   year: 2023
   authors: Aarya Deb, Kitae Kim, David J. Cappelleri
-  publisher: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (DOI: TBD)"
-  # url: 
+  publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  url: https://doi.org/10.1109/IROS55552.2023.10341516
+  doi: 10.1109/IROS55552.2023.10341516
 
 # Frequent and Automatic Update of Lane-Level HD Maps with a Large Amount of Crowdsourced Data Acquired from Buses and Taxis in Seoul
 - title: Frequent and Automatic Update of Lane-Level HD Maps with a Large Amount of Crowdsourced Data Acquired from Buses and Taxis in Seoul
   year: 2022
   authors: Minwoo Cho, Kitae Kim, Soohyun Cho, Seung-Mo Cho, Woojin Chung
   publisher: Sensors
-  url: https://www.mdpi.com/1424-8220/23/1/438
+  url: https://doi.org/10.3390/s23010438
   doi: 10.3390/s23010438
 
 # P-AgBot: In-Row & Under-Canopy Agricultural Robot for Monitoring and Physical Sampling
@@ -21,7 +22,7 @@
   year: 2022
   authors: Kitae Kim, Aarya Deb, David J Cappelleri
   publisher: IEEE Robotics and Automation Letters (RA-L)
-  url: https://ieeexplore.ieee.org/document/9810180/
+  url: https://doi.org/10.1109/LRA.2022.3187275
   doi: 10.1109/LRA.2022.3187275
 
 # HD Map Update for Autonomous Driving With Crowdsourced Data
@@ -29,7 +30,7 @@
   year: 2021
   authors: Kitae Kim, Soohyun Cho, Woojin Chung
   publisher: IEEE Robotics and Automation Letters (RA-L)
-  url: https://ieeexplore.ieee.org/document/9357917
+  url: https://doi.org/10.1109/LRA.2021.3060406
   doi: 10.1109/LRA.2021.3060406
 
 # Point of Interest Matching Method between Map using Geometric Characteristics
