@@ -1,6 +1,14 @@
 # Publications
 # uncomment the urls if you wish to display them, and add your own URL
 
+# P-AgSLAM: In-Row and Under-Canopy SLAM for Agricultural Monitoring in Cornfields
+- title: P-AgSLAM: In-Row and Under-Canopy SLAM for Agricultural Monitoring in Cornfields
+  year: 2024
+  authors: Kitae Kim, Aarya Deb, David J. Cappelleri
+  publisher: IEEE Robotics and Automation Letters (RA-L)
+  url: 
+  doi: TBD
+
 # Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
 - title: Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
   year: 2023
