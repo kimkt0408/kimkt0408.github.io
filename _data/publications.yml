@@ -6,8 +6,8 @@
   year: 2024
   authors: Kitae Kim, Aarya Deb, David J. Cappelleri
   publisher: IEEE Robotics and Automation Letters (RA-L)
-  url: 
-  doi: Accepted (TBD)
+  # url: 
+  # doi: Accepted (TBD)
 
 # Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
 - title: Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
