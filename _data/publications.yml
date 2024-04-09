@@ -5,9 +5,9 @@
 - title: "P-AgSLAM: In-Row and Under-Canopy SLAM for Agricultural Monitoring in Cornfields"
   year: 2024
   authors: Kitae Kim, Aarya Deb, David J. Cappelleri
-  publisher: IEEE Robotics and Automation Letters (RA-L), Accepted
-  # url: 
-  # doi: Accepted (TBD)
+  publisher: IEEE Robotics and Automation Letters (RA-L)
+  url: https://doi.org/10.1109/lra.2024.3386466
+  doi: 10.1109/LRA.2024.3386466
 
 # Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
 - title: Deep learning-based Leaf Detection for Robotic Physical Sampling with P-AgBot
