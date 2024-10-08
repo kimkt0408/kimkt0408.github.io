@@ -87,31 +87,6 @@
       {% endif %}
 
       
-      {% if site.resume_section_news %}
-      <!-- begin News -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>News</h2>
-        </header>
-
-        <ul class="resume-item-list">
-          {% for news in site.data.news %}
-          <li>
-            {% if news.url %}
-            <a href="{{ news.url }}" target="_blank">{{ news.title }}</a>
-            {% endif %}
-            {% if news.subtitle %}
-            <p>{{ news.subtitle }}</p>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-
-      </section>
-      <!-- end News -->
-    {% endif %}
-
-      
       {% if site.resume_section_publications %}
       <!-- begin Publications -->
       <section class="content-section">
@@ -168,6 +143,30 @@
       </section>
       <!-- end Awards -->
       {% endif %}
+
+      {% if site.resume_section_news %}
+      <!-- begin News -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>News</h2>
+        </header>
+
+        <ul class="resume-item-list">
+          {% for news in site.data.news %}
+          <li>
+            {% if news.url %}
+            <a href="{{ news.url }}" target="_blank">{{ news.title }}</a>
+            {% endif %}
+            {% if news.subtitle %}
+            <p>{{ news.subtitle }}</p>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+
+      </section>
+      <!-- end News -->
+    {% endif %}
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
