@@ -145,27 +145,27 @@
       {% endif %}
 
 
-    {% if site.resume_section_news %}
-      <!-- begin News -->
+    {% if site.resume_section_media %}
+      <!-- begin Media -->
       <section class="content-section">
         <header class="section-header">
-          <h2>News</h2>
+          <h2>Media</h2>
         </header>
 
         <ul class="resume-item-list">
-          {% for news in site.data.news %}
+          {% for media in site.data.media %}
           <li>
-            {% if news.url %}
-            <!-- <a href="{{ news.url }}" target="_blank">{{ news.title }}</a> -->
-            <a href="{{ news.url }}" target="_blank">{{ news.title }} - <span class="news-date">{{ news.date }}</span></a>
+            {% if media.url %}
+            <!-- <a href="{{ media.url }}" target="_blank">{{ media.title }}</a> -->
+            <a href="{{ media.url }}" target="_blank">{{ media.title }} - <span class="media-date">{{ media.date }}</span></a>
             {% endif %}
-            {% if news.subtitle %}
-            <p>{{ news.subtitle }}</p>
+            {% if media.subtitle %}
+            <p>{{ media.subtitle }}</p>
             {% endif %}
-            {% if news.youtube_url %}
+            {% if media.youtube_url %}
               <div class="youtube-video">
                 <iframe width="560" height="315" 
-                        src="https://www.youtube.com/embed/{{ news.youtube_url | default: '' }}" 
+                        src="https://www.youtube.com/embed/{{ media.youtube_url | default: '' }}" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
@@ -177,7 +177,7 @@
         </ul>
 
       </section>
-      <!-- end News -->
+      <!-- end Media -->
     {% endif %}
 
       {% if site.resume_section_skills %}
