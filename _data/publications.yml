@@ -1,6 +1,14 @@
 # Publications
 # uncomment the urls if you wish to display them, and add your own URL
 
+# P-AgNav: Range View-Based Autonomous Navigation System for Cornfields
+- title: "P-AgNav: Range View-Based Autonomous Navigation System for Cornfields"
+  year: 2024
+  authors: Kitae Kim, Aarya Deb, David J. Cappelleri
+  publisher: IEEE Robotics and Automation Letters (RA-L) (Under review)
+  # url: 
+  # doi: 
+
 # P-AgSLAM: In-Row and Under-Canopy SLAM for Agricultural Monitoring in Cornfields
 - title: "P-AgSLAM: In-Row and Under-Canopy SLAM for Agricultural Monitoring in Cornfields"
   year: 2024
