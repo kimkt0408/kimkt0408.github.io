@@ -163,9 +163,14 @@
             <p>{{ news.subtitle }}</p>
             {% endif %}
             {% if news.youtube_url %}
-            <div class="youtube-video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ news.youtube_url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+              <div class="youtube-video">
+                <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/{{ news.youtube_url | default: '' }}" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+              </div>
             {% endif %}
           </li>
           {% endfor %}
