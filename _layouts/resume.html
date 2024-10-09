@@ -115,8 +115,8 @@
         </header>
         {% for project in site.data.projects %}
         <div class="resume-item">
-          <h4 class="resume-item-title" itemprop="award">{% if project.url %}<a href="{{ project.url }}" target="_blank">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h4>
-          <h5 class="resume-item-details">{{ project.sponsor }} &bull; {{ project.year }}</h5>
+          <h3 class="resume-item-title" itemprop="project">{% if project.url %}<a href="{{ project.url }}" target="_blank">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
+          <h4 class="resume-item-details">{{ project.sponsor }} &bull; {{ project.year }}</h4>
           <p class="resume-item-copy">{{ project.summary }}</p>
         </div>
         {% endfor %}
