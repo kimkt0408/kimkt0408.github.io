@@ -1,0 +1,37 @@
+# Industry Experiences
+
+- title: Nokia AIMS (Autonomous Inventory Monitoring Service) at Nokia Bell Labs
+  sponsor: Software Engineering for Robotics Co-Op
+  year: January 2025 &mdash; Present
+  summary: During my internship, I will develop an optical flow-based multi-object tracking algorithm to identify and track landmarks in a large-scale indoor warehouse environment. Also, I will design and implement a factor graph-based SLAM algorithm. This SLAM solution integrates multi-object tracking outputs and visual-inertial odometry for robust drone navigation in the warehouse environment. 
+  #url: https://iot4ag.us/
+
+- title: Development of High Definition Map for Autonomous Vehicles Update Technology
+  sponsor: SK Telecom
+  year: 2019 &mdash; 2021
+  summary: "Our goal was to develop a technology that keeps high definition (HD) maps for autonomous vehicles up to date by using a large amount of low-cost low-quality crowdsourced data. I designed two main algorithms for various types of landmarks in the road environment by MATLAB and C++: Observation Learner module and Landmark Update module. My methods make it possible to determine which landmarks need to be registered in the updated maps. Throughout this project, I could realize the importance of accurate map management in the field of autonomous driving." 
+  # url:
+
+- title: Design Self-driving Harvest-Carrying Robot in Greenhouse Environments
+  sponsor: Korea Institute of Planning and Evaluation for Technology in Food, Agriculture and Forestry (IPET)
+  year: 2019 &mdash; 2021
+  summary:
+  # url:
+
+- title: Development of robot intelligence technology for mobility with learning capability toward robust and seamless indoor and outdoor autonomous navigation
+  sponsor: Korea Evaluation Institute of Industrial Technology (KEIT)
+  year: 2019 &mdash; 2020
+  summary:
+  # url:
+
+- title: The autonomous navigation system with self-growing intelligence for the driver-less car that operates safely in crowded street environments
+  sponsor: National Research Foundation of Korea (NRF)
+  year: 2019 &mdash; 2020
+  summary:
+  # url:
+
+- title: Verification of the Performance of 3D Light Detection and Ranging (LiDAR) sensors based on the Pedestrian Accident by Uber Autonomous Vehicle
+  sponsor: Undergraduate Thesis
+  year: 2018
+  summary:
+  # url:

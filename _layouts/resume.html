@@ -86,7 +86,32 @@
       <!-- end Education -->
       {% endif %}
 
-      
+      {% if site.resume_section_industry_experience %}
+      <!-- begin Industry Experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Industry Experience</h2>
+        </header>
+        {% for industry_experience in site.data.industry_experiences %}
+        <div class="resume-item">
+          <h4 class="resume-item-details" itemprop="industry_experience">
+            {% if industry_experience.url %}
+                <a href="{{ industry_experience.url }}" target="_blank">{{ industry_experience.title }}</a>
+            {% else %}
+                {{ industry_experience.title }}
+            {% endif %}
+            <br>
+            <span style="font-size: 0.8em; margin-top: 10px; display: block;">{{ industry_experience.sponsor }} &bull; {{ industry_experience.year }}</span>
+          </h4>
+          <p class="resume-item-copy">{{ industry_experience.summary }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Projects -->
+      {% endif %}
+
       {% if site.resume_section_publications %}
       <!-- begin Publications -->
       <section class="content-section">
