@@ -97,12 +97,12 @@
         <div class="resume-item">
           <h4 class="resume-item-details" itemprop="industry_experience">
             {% if industry_experience.url %}
-                <a href="{{ industry_experience.url }}" target="_blank">{{ industry_experience.title }}</a>
+                <a href="{{ industry_experience.url }}" target="_blank">{{ industry_experience.company }}</a>
             {% else %}
-                {{ industry_experience.title }}
+                {{ industry_experience.company }}
             {% endif %}
             <br>
-            <span style="font-size: 0.8em; margin-top: 10px; display: block;">{{ industry_experience.sponsor }} &bull; {{ industry_experience.year }}</span>
+            <span style="font-size: 0.8em; margin-top: 10px; display: block;">{{ industry_experience.position}} &bull; {{ industry_experience.period }}</span>
           </h4>
           <p class="resume-item-copy">{{ industry_experience.summary }}</p>
         </div>
