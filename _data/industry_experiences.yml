@@ -1,7 +1,7 @@
 # Industry Experiences
 
-- company: Sientis | Nokia AIMS at Nokia Bell Labs
+- company: Nokia AIMS at Nokia Bell Labs
   position: Software Engineering for Robotics Co-Op
-  period: January 2025 &mdash; Present
-  summary: During my internship, I will develop an optical flow-based multi-object tracking algorithm to identify and track landmarks in a large-scale indoor warehouse environment. Also, I will design and implement a factor graph-based SLAM algorithm. This SLAM solution integrates multi-object tracking outputs and visual-inertial odometry for robust drone navigation in the warehouse environment. 
-  url: https://www.sientis.ai/
+  period: January 2025 &mdash; May 2025
+  summary: During my internship, I developed a vision-based multi-object tracking (MOT) algorithm for tracking landmarks in large-scale indoor warehouse environments to improve drone localization. I also designed and implemented a factor graph-based SLAM system that fuses MOT outputs with visual-inertial odometry for scalable and accurate drone navigation across diverse warehouse environments.
+  # url: https://www.sientis.ai/
