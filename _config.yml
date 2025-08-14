@@ -9,21 +9,21 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Kitae Kim"
-resume_title:                   "About Me"
+resume_avatar: "true"
+resume_name: "Kitae Kim"
+resume_title: "About Me"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "kim3686@purdue.edu"
+resume_contact_email: "kim3686@purdue.edu"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       
-resume_contact_address:         "Ray W. Herrick Laboratories, Purdue University, IN"
+resume_contact_telephone:
+resume_contact_address: "Ray W. Herrick Laboratories, Purdue University, IN"
 
-resume_header_contact_info:     "Ray W. Herrick Laboratories, Purdue University, IN • <a href='mailto:kim3686@purdue.edu'>kim3686@purdue.edu</a>"
-display_header_contact_info:    "true"
+resume_header_contact_info: "Ray W. Herrick Laboratories, Purdue University, IN • <a href='mailto:kim3686@purdue.edu'>kim3686@purdue.edu</a>"
+display_header_contact_info: "true"
 
-resume_header_intro: "<p>Hi! I am a Ph.D. candidate in Mechanical Engineering at Purdue University, specializing in robotics and automation in <a href='https://multiscalerobotics.org/' target='_blank'>Multi-Scale Robotics and Automation Lab</a> directed by Prof. David J. Cappelleri. My research is centered on advancing SLAM (Simultaneous Localization And Mapping) techniques and enhancing autonomous navigation in unstructured environments. Currently, my research focuses on the development of an innovative mobile robotic system designed for autonomous navigation and physical crop sampling in large-scale row-based cornfields. Starting in January 2025, I had an internship at Nokia Bell Labs and contributed sto design algorithms for vision-based drone localization in large-scale indoor environments. </p>"
+resume_header_intro: "<p>Hi! I am a Ph.D. candidate in Mechanical Engineering at Purdue University, specializing in robotics and automation in <a href='https://multiscalerobotics.org/' target='_blank'>Multi-Scale Robotics and Automation Lab</a> directed by Prof. David J. Cappelleri. My research is centered on advancing SLAM (Simultaneous Localization And Mapping) techniques and enhancing autonomous navigation in unstructured environments. Currently, my research focuses on the development of an innovative mobile robotic system designed for autonomous navigation and physical crop sampling in large-scale row-based cornfields. Starting in January 2025, I had an internship at Nokia Bell Labs and contributed to design algorithms for vision-based drone localization in large-scale warehouse environments to monitor inventories autonomously. </p>"
 
 # resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
 
@@ -31,16 +31,16 @@ resume_header_intro: "<p>Hi! I am a Ph.D. candidate in Mechanical Engineering at
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+resume_looking_for_work: "yes"
 
 # Decide which sections to use
 # comment out to hide
-resume_section_education:                 true
-resume_section_industry_experience:       true
-resume_section_publications:              true
-resume_section_projects:                  true
-resume_section_media:                     true
-resume_section_awards:                    true
+resume_section_education: true
+resume_section_industry_experience: true
+resume_section_publications: true
+resume_section_projects: true
+resume_section_media: true
+resume_section_awards: true
 # resume_section_experience:      false
 # resume_section_skills:          false
 # resume_section_recognition:     false
@@ -51,20 +51,19 @@ resume_section_awards:                    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_googlescholar_url:     "https://scholar.google.com/citations?user=6FfnTeYAAAAJ&hl=en"
+  resume_googlescholar_url: "https://scholar.google.com/citations?user=6FfnTeYAAAAJ&hl=en"
   #resume_github_url:            "https://github.com/jglovier/resume-template" #skip
   #resume_twitter_url:           "http://twitter.com/jglovier"                 #skip
-  #resume_dribbble_url:          "https://dribbble.com/jag"                    #skip    
+  #resume_dribbble_url:          "https://dribbble.com/jag"                    #skip
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/kimkt0408"
+  resume_linkedin_url: "https://www.linkedin.com/in/kimkt0408"
   # resume_instagram_url:         "insert your Instagram URL here"
   #resume_website_url:           "http://joelglovier.com"
   #resume_medium_url:            "https://medium.com/@jglovier"
-resume_print_social_links:      true
+resume_print_social_links: true
 
 # Design settings
-resume_theme:                   default
-
+resume_theme: default
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
