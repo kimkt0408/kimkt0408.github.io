@@ -1,25 +1,24 @@
 # News entries - latest first
-- title: "Started Ph.D. Research on Autonomous Agricultural Robotics"
-  date: "2023-08-15"
-  description: "Began working on SLAM techniques for autonomous navigation in cornfields"
-  link: "https://multiscalerobotics.org/"
-
-- title: "Internship at Nokia Bell Labs"
-  date: "2025-01-01"
-  description: "Contributing to vision-based drone localization algorithms for warehouse inventory monitoring"
+- date: "2025.08"
+  description: "I gave an invited seminar at MIT SPARK Lab, presenting our latest and ongoing research on Semantic SLAM in challenging environments."
   link: ""
 
-- title: "Paper Accepted at Robotics Conference"
-  date: "2024-03-20"
-  description: "Research on multi-scale robotic systems accepted for presentation"
+- date: "2025.07"
+  description: "I gave an invited seminar at KAIST, presenting our latest work on Semantic SLAM in challenging environments."
   link: ""
 
-- title: "Joined Multi-Scale Robotics Lab"
-  date: "2023-01-10"
-  description: "Started research under Prof. David J. Cappelleri at Purdue University"
-  link: "https://multiscalerobotics.org/"
+- date: "2025.06"
+  description: "Our paper <em>Semantic Enhancement for Object SLAM with Heterogeneous Multimodal Large Language Model Agents</em> was accepted for publication in IROS 2025."
+  link: ""
 
-- title: "Completed Masters Degree"
-  date: "2022-12-15"
-  description: "Graduated with focus on mechanical engineering and automation"
+- date: "2025.03"
+  description: "Our paper <em>A Quantitative Evaluation of Bathymetry-Based Bayesian Localization Methods for Autonomous Underwater Robots</em> was published in IEEE Journal of Oceanic Engineering."
+  link: ""
+
+- date: "2025.01"
+  description: "Our paper <em>IBURD: Image Blending for Underwater Robotic Detection</em> was accepted for publication in ICRA 2025."
+  link: ""
+
+- date: "2024.10"
+  description: "I presented our paper <em>Opti-Acoustic Semantic SLAM with Unknown Objects in Underwater Environments</em> at the IROS 2024 Workshop, Autonomous Robotic Systems in Aquaculture, and we won the Best Paper Award."
   link: ""

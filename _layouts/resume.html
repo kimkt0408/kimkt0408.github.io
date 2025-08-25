@@ -53,21 +53,14 @@
       <!-- begin News -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Latest News</h2>
+          <h2>Recent News <a href="#news" class="permalink">Permalink</a></h2>
         </header>
 
-        <div class="news-container">
+        <div class="news-list">
           {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
           {% for news in sorted_news limit:5 %}
-          <div class="news-item">
-            <div class="news-date">{{ news.date | date: "%B %Y" }}</div>
-            <div class="news-content">
-              <h4 class="news-title">{{ news.title }}</h4>
-              <p class="news-description">{{ news.description }}</p>
-              {% if news.link and news.link != "" %}
-                <a href="{{ news.link }}" target="_blank" class="news-link">Read more →</a>
-              {% endif %}
-            </div>
+          <div class="news-entry">
+            <span class="news-date">{{ news.date }}</span> {{ news.description }}
           </div>
           {% endfor %}
         </div>
@@ -79,15 +72,8 @@
             <summary class="older-news-toggle">Show older news ({{ total_news | minus: 5 }} more)</summary>
             <div class="older-news-list">
               {% for news in sorted_news offset:5 %}
-              <div class="news-item older-news-item">
-                <div class="news-date">{{ news.date | date: "%B %Y" }}</div>
-                <div class="news-content">
-                  <h4 class="news-title">{{ news.title }}</h4>
-                  <p class="news-description">{{ news.description }}</p>
-                  {% if news.link and news.link != "" %}
-                    <a href="{{ news.link }}" target="_blank" class="news-link">Read more →</a>
-                  {% endif %}
-                </div>
+              <div class="news-entry">
+                <span class="news-date">{{ news.date }}</span> {{ news.description }}
               </div>
               {% endfor %}
             </div>
