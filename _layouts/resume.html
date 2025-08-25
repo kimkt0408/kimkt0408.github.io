@@ -49,6 +49,56 @@
 
       </header>
 
+      {% if site.resume_section_news %}
+      <!-- begin News -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Latest News</h2>
+        </header>
+
+        <div class="news-container">
+          {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+          {% for news in sorted_news limit:5 %}
+          <div class="news-item">
+            <div class="news-date">{{ news.date | date: "%B %Y" }}</div>
+            <div class="news-content">
+              <h4 class="news-title">{{ news.title }}</h4>
+              <p class="news-description">{{ news.description }}</p>
+              {% if news.link and news.link != "" %}
+                <a href="{{ news.link }}" target="_blank" class="news-link">Read more →</a>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        {% assign total_news = site.data.news | size %}
+        {% if total_news > 5 %}
+        <div class="older-news-container">
+          <details>
+            <summary class="older-news-toggle">Show older news ({{ total_news | minus: 5 }} more)</summary>
+            <div class="older-news-list">
+              {% for news in sorted_news offset:5 %}
+              <div class="news-item older-news-item">
+                <div class="news-date">{{ news.date | date: "%B %Y" }}</div>
+                <div class="news-content">
+                  <h4 class="news-title">{{ news.title }}</h4>
+                  <p class="news-description">{{ news.description }}</p>
+                  {% if news.link and news.link != "" %}
+                    <a href="{{ news.link }}" target="_blank" class="news-link">Read more →</a>
+                  {% endif %}
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </details>
+        </div>
+        {% endif %}
+
+      </section>
+      <!-- end News -->
+      {% endif %}
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
