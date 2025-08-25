@@ -58,28 +58,31 @@
 
         <div class="news-list">
           {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
-          {% for news in sorted_news limit:5 %}
-          <div class="news-entry">
-            <span class="news-date">{{ news.date }}</span> {{ news.description }}
-          </div>
-          {% endfor %}
-        </div>
+          
+          <!-- Recent News (top 3) -->
+          <ul class="recent-news">
+            {% for news in sorted_news limit:3 %}
+            <li class="news-entry">
+              <span class="news-date">{{ news.date }}</span> {{ news.description }}
+            </li>
+            {% endfor %}
+          </ul>
 
-        {% assign total_news = site.data.news | size %}
-        {% if total_news > 5 %}
-        <div class="older-news-container">
-          <details>
-            <summary class="older-news-toggle">Show older news ({{ total_news | minus: 5 }} more)</summary>
-            <div class="older-news-list">
-              {% for news in sorted_news offset:5 %}
-              <div class="news-entry">
+          {% assign total_news = site.data.news | size %}
+          {% if total_news > 3 %}
+          <!-- Older News in Scrollable Area -->
+          <div class="older-news-header">Older News</div>
+          <div class="older-news-scroll">
+            <ul class="older-news-list">
+              {% for news in sorted_news offset:3 %}
+              <li class="news-entry">
                 <span class="news-date">{{ news.date }}</span> {{ news.description }}
-              </div>
+              </li>
               {% endfor %}
-            </div>
-          </details>
+            </ul>
+          </div>
+          {% endif %}
         </div>
-        {% endif %}
 
       </section>
       <!-- end News -->

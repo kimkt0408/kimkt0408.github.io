@@ -176,61 +176,27 @@
 
 // News section styles
 
-.section-header .permalink {
-  font-size: 0.75rem;
-  color: #999;
-  text-decoration: none;
-  margin-left: 0.5rem;
-  font-weight: normal;
-  
-  &:hover {
-    color: #666;
-  }
-}
-
 .news-list {
-  .news-entry {
-    margin-bottom: 1rem;
-    line-height: 1.5;
+  .recent-news, .older-news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     
-    .news-date {
-      @include sans_bold;
-      color: #333;
-    }
-    
-    em {
-      font-style: italic;
-    }
-  }
-}
-
-.older-news-container {
-  margin-top: 1.5rem;
-  
-  .older-news-toggle {
-    @include sans_bold;
-    font-size: 0.95rem;
-    color: #666;
-    cursor: pointer;
-    padding: 0.5rem 0;
-    user-select: none;
-    @include transition(color .2s ease);
-
-    &:hover {
-      color: #333;
-    }
-
-    &::marker {
-      color: #999;
-    }
-  }
-
-  .older-news-list {
-    margin-top: 1rem;
-
     .news-entry {
       margin-bottom: 1rem;
       line-height: 1.5;
+      padding-left: 1rem;
+      position: relative;
+      
+      // Bullet point
+      &::before {
+        content: "•";
+        color: #666;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
       
       .news-date {
         @include sans_bold;
@@ -239,6 +205,57 @@
       
       em {
         font-style: italic;
+      }
+    }
+  }
+  
+  .recent-news {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.older-news-header {
+  @include sans_bold;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.older-news-scroll {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: #fafafa;
+  
+  // Custom scrollbar styling
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+    
+    &:hover {
+      background: #a8a8a8;
+    }
+  }
+  
+  .older-news-list {
+    .news-entry {
+      margin-bottom: 0.75rem;
+      
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }
