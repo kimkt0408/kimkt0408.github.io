@@ -191,6 +191,7 @@
       line-height: 1.5;
       padding-left: 1rem;
       position: relative;
+      font-size: 0.9rem;
       
       // Bullet point
       &::before {
@@ -205,6 +206,7 @@
       .news-date {
         @include sans_bold;
         color: #333;
+        font-size: 0.85rem;
       }
       
       em {
