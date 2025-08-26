@@ -1,14 +1,14 @@
 # News entries - latest first
 - date: "2025.08"
-  description: "I gave an invited seminar at Daedong Mobility (Korea, virtual), presenting our research on pose estimation and navigation systems of mobile robots in agricultural environments."
-  link: ""
-
-- date: "2025.08"
   description: "I presented our recent work <em>P-AgNav: Range View-Based Autonomous Navigation System for Cornfields</em> at UKC 2025, and won the 2nd place in Technical Group: Mechanical, Aerospace, and Naval Engineering."
   link: ""
 
 - date: "2025.08"
   description: "I presented our work <em>In-Row and Under-Canopy Autonomous Navigation System for Mobile Robots in Cornfields</em> at UKC SEED 2025."
+  link: ""
+
+- date: "2025.08"
+  description: "I gave an invited seminar at Daedong Mobility (Korea, virtual), presenting our research on pose estimation and navigation systems of mobile robots in agricultural environments."
   link: ""
 
 - date: "2025.05"
