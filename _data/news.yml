@@ -4,6 +4,10 @@
   link: ""
 
 - date: "2026.01"
+  description: "I am excited to share that our paper \" DRILL: Deployment & Reading of In-ground Low-cost Soil Moisture Logging Sensors Using an Autonomous Ground Robot\" has been accepted at <strong>IEEE ICRA 2026</strong>."
+  link: ""
+
+- date: "2026.01"
   description: "I am scheduled to give an <strong>Invited Seminar</strong> titled \"Robotics for Sustainable and Precision Agriculture\" at <strong>Fairfield University</strong>."
   link: ""
 
@@ -28,11 +32,11 @@
   link: ""
 
 - date: "2025.05"
-  description: "I presented our <strong>IEEE RA-L</strong> paper \"P-AgSLAM: In-Row and Under-Canopy SLAM for Agricultural Monitoring in Cornfields\" at <strong>ICRA 2025</strong>."
+  description: "I presented our <strong>IEEE RA-L</strong> paper \"P-AgSLAM: In-Row and Under-Canopy SLAM for Agricultural Monitoring in Cornfields\" at <strong>IEEE ICRA 2025</strong>."
   link: ""
 
 - date: "2025.05"
-  description: "I have been selected as a presenter in the <strong>Doctoral Consortium</strong> at <strong>ICRA 2025</strong>, and presented my doctoral work \"In-Row and Under-Canopy Autonomous Navigation System for Mobile Robots in Cornfields.\""
+  description: "I have been selected as a presenter in the <strong>Doctoral Consortium</strong> at <strong>IEEE ICRA 2025</strong>, and presented my doctoral work \"In-Row and Under-Canopy Autonomous Navigation System for Mobile Robots in Cornfields.\""
   link: ""
 
 - date: "2025.01"

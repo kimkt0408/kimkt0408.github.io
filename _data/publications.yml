@@ -1,5 +1,20 @@
 # Publications
 # uncomment the urls if you wish to display them, and add your own URL
+# P-AgNav: Range View-Based Autonomous Navigation System for Cornfields
+- title: "DRILL: Deployment & Reading of In-ground Low-cost Soil Moisture Logging Sensors Using an Autonomous Ground Robot"
+  year: 2026
+  authors: Aarya Deb, Joseph Norwood, Martin Vassilev, Sean MacDonald, Kitae Kim, David J. Cappelleri
+  publisher: 2026 IEEE International Conference on Robotics and Automation (ICRA) 
+  # url: https://doi.org/10.1109/LRA.2025.3541335
+  # doi: 10.1109/LRA.2025.3541335
+
+# P-AgNav: Range View-Based Autonomous Navigation System for Cornfields
+- title: "P-AgNav: Range View-Based Autonomous Navigation System for Cornfields"
+  year: 2025
+  authors: Kitae Kim, Aarya Deb, David J. Cappelleri
+  publisher: IEEE Robotics and Automation Letters (RA-L) 
+  url: https://doi.org/10.1109/LRA.2025.3541335
+  doi: 10.1109/LRA.2025.3541335
 
 # P-AgNav: Range View-Based Autonomous Navigation System for Cornfields
 - title: "P-AgNav: Range View-Based Autonomous Navigation System for Cornfields"
