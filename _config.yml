@@ -18,12 +18,12 @@ resume_contact_email: "kim3686@purdue.edu"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:
-resume_contact_address: "Ray W. Herrick Laboratories, Purdue University, IN"
+resume_contact_address: "Purdue University, IN"
 
-resume_header_contact_info: "Ray W. Herrick Laboratories, Purdue University, IN • <a href='mailto:kim3686@purdue.edu'>kim3686@purdue.edu</a>"
+resume_header_contact_info: "Purdue University, IN • <a href='mailto:kim3686@purdue.edu'>kim3686@purdue.edu</a>"
 display_header_contact_info: "true"
 
-resume_header_intro: "<p>Hi! I am a Ph.D. candidate in Mechanical Engineering at Purdue University, specializing in robotics and automation in <a href='https://multiscalerobotics.org/' target='_blank'>Multi-Scale Robotics and Automation Lab</a> directed by Prof. David J. Cappelleri. My research is centered on advancing SLAM (Simultaneous Localization And Mapping) techniques and enhancing autonomous navigation in unstructured environments. Currently, my research focuses on the development of an innovative mobile robotic system designed for autonomous navigation and physical crop sampling in large-scale row-based cornfields. Starting in January 2025, I had an internship at Nokia Bell Labs and contributed to design algorithms for vision-based drone localization in large-scale warehouse environments to monitor inventories autonomously. </p>"
+resume_header_intro: "<p>Hi! I am a Ph.D. candidate in Mechanical Engineering at Purdue University, specializing in robotics and automation in <a href='https://multiscalerobotics.org/' target='_blank'>Multi-Scale Robotics and Automation Lab</a> directed by Prof. David J. Cappelleri. My research focuses on the development of an intelligent mobile robotic systems for sustainable and precision agriculture, especially on robot autonomy including localization, perception, and autonomous navigation. In 2025, I had an internship at Nokia Bell Labs. During my internship, I have contributed to design algorithms for vision-based drone localization in large-scale warehouse environments to monitor inventories autonomously. </p>"
 
 # resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
 
